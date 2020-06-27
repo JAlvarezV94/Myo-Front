@@ -1,0 +1,17 @@
+.error-container{
+    height: 100px;
+    width: 500px;
+    background-color: #2B2D42;
+    position: absolute;
+    top: 30px;
+    border-radius: 5px;
+    border: 1px solid #2B2D42;
+    color: #EF233C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}

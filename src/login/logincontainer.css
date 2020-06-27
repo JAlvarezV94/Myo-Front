@@ -1,0 +1,31 @@
+.login-box{
+    background-color: #EDF2F4;
+    width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.login-box > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box > form > label {
+    text-align: initial;
+    margin-top: 15px;
+}
+
+.login-button{
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid#D90429;
+    border-radius: 3px;
+    transition: background-color 0.5s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login-button:hover{
+    color: #EDF2F4;
+    background-color: #D90429;
+}
